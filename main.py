@@ -1,0 +1,13 @@
+a11 = float(input("Введіть перший коефіцієнт х:"))
+b12 = float(input("Введіть перший коефіцієнт y:"))
+a21 = float(input("Введіть другий коефіцієнт x:"))
+b22 = float(input("Введіть другий коефіцієнт y:"))
+c1 = float(input("Введіть перший коефіцієнт c:"))
+c2 = float(input("Введіть другий коефіцієнт c:"))
+detG = a11*b22 - b12*a21
+det1 = c1*b22 - c2*b12
+det2 = a11*c2 - a21*c1
+x = round(det1/detG)
+y = round(det2/detG)
+print("x = " + str(x))
+print("y = " + str(y))
