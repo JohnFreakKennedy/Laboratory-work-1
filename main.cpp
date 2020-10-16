@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    int  a11,b12,a21,b22,c1,c2,det1,det2,detG;
-    float x,y;
+    
+    float x, y, a11, b12, a21, b22, c1, c2, det1, det2, detG;
     //det1-детермінант за 1 стовпчиком
     //det2-детермінант за 2 стовпчиком
     //detG-загальний детермінант
